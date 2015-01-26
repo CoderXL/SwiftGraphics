@@ -89,6 +89,13 @@
 		455621931A6A2EAC00EB181E /* Dragging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455621921A6A2EAC00EB181E /* Dragging.swift */; };
 		45563F2E19B1047E003B1639 /* CColorConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 45563F2C19B1047E003B1639 /* CColorConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45563F2F19B1047E003B1639 /* CColorConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45563F2D19B1047E003B1639 /* CColorConverter.m */; };
+		455AC2C81A76130B00BCC373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AC2C71A76130B00BCC373 /* AppDelegate.swift */; };
+		455AC2CA1A76130B00BCC373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AC2C91A76130B00BCC373 /* ViewController.swift */; };
+		455AC2CC1A76130B00BCC373 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455AC2CB1A76130B00BCC373 /* Images.xcassets */; };
+		455AC2CF1A76130B00BCC373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455AC2CD1A76130B00BCC373 /* Main.storyboard */; };
+		455AC2E61A76133A00BCC373 /* SwiftGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D550719AA5CE6000E3EB3 /* SwiftGraphics.framework */; };
+		455AC2E71A76133A00BCC373 /* SwiftGraphicsPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454FE66219C77031002E4DEF /* SwiftGraphicsPlayground.framework */; };
+		455AC2E91A76135600BCC373 /* ScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AC2E81A76135600BCC373 /* ScratchView.swift */; };
 		456877E219B6857B004BEFD6 /* CoordinateSystems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456877E119B6857B004BEFD6 /* CoordinateSystems.swift */; };
 		456C315C19C65B0E003AA1DF /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C315B19C65B0E003AA1DF /* Ellipse.swift */; };
 		456C315D19C65B0E003AA1DF /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C315B19C65B0E003AA1DF /* Ellipse.swift */; };
@@ -216,6 +223,20 @@
 			remoteGlobalIDString = 454D550619AA5CE6000E3EB3;
 			remoteInfo = SwiftGraphics_OSX;
 		};
+		455AC2E21A76133500BCC373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 454D54FE19AA5CE6000E3EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454D550619AA5CE6000E3EB3;
+			remoteInfo = SwiftGraphics_OSX;
+		};
+		455AC2E41A76133500BCC373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 454D54FE19AA5CE6000E3EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454FE66119C77031002E4DEF;
+			remoteInfo = SwiftGraphicsPlayground;
+		};
 		4582DB7819AA7A6700B7F5B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 454D54FE19AA5CE6000E3EB3 /* Project object */;
@@ -314,6 +335,13 @@
 		45563F2C19B1047E003B1639 /* CColorConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CColorConverter.h; sourceTree = "<group>"; };
 		45563F2D19B1047E003B1639 /* CColorConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CColorConverter.m; sourceTree = "<group>"; };
 		45592F501A61B65200F496D2 /* TransformTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformTest.playground; sourceTree = "<group>"; };
+		455AC2C31A76130B00BCC373 /* SwiftGraphics_OSX_Scratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGraphics_OSX_Scratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455AC2C61A76130B00BCC373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455AC2C71A76130B00BCC373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		455AC2C91A76130B00BCC373 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		455AC2CB1A76130B00BCC373 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		455AC2CE1A76130B00BCC373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455AC2E81A76135600BCC373 /* ScratchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchView.swift; sourceTree = "<group>"; };
 		455D0A5D1A64A3EF00189879 /* Color.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Color.playground; sourceTree = "<group>"; };
 		456877E119B6857B004BEFD6 /* CoordinateSystems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateSystems.swift; sourceTree = "<group>"; };
 		456C315B19C65B0E003AA1DF /* Ellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
@@ -412,6 +440,15 @@
 			files = (
 				45B32D4D1A637E74004FD3FB /* libz.dylib in Frameworks */,
 				454FE68319C7799B002E4DEF /* SwiftGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455AC2C01A76130B00BCC373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455AC2E61A76133A00BCC373 /* SwiftGraphics.framework in Frameworks */,
+				455AC2E71A76133A00BCC373 /* SwiftGraphicsPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,9 +581,10 @@
 				454D550919AA5CE6000E3EB3 /* SwiftGraphics_OSX */,
 				45DA4AC519AA62A800133F32 /* SwiftGraphics_iOS */,
 				454FE66319C77031002E4DEF /* SwiftGraphicsPlayground */,
+				45CFDC9F1A61CE3500053F96 /* SwiftGraphics_OSX_UITest */,
+				455AC2C41A76130B00BCC373 /* SwiftGraphics_OSX_Scratch */,
 				454D551319AA5CE6000E3EB3 /* SwiftGraphics_UnitTests */,
 				450155801A62F9F600D7FB7B /* SwiftGraphicsPlayground_OSX_UnitTests */,
-				45CFDC9F1A61CE3500053F96 /* SwiftGraphics_OSX_UITest */,
 				4514F5F71A61D2D800CC9C26 /* Frameworks */,
 				454D550819AA5CE6000E3EB3 /* Products */,
 			);
@@ -561,6 +599,7 @@
 				454FE66219C77031002E4DEF /* SwiftGraphicsPlayground.framework */,
 				45CFDC9E1A61CE3500053F96 /* SwiftGraphics_OSX_UITest.app */,
 				4501557F1A62F9F600D7FB7B /* SwiftGraphicsPlayground_OSX_UnitTests.xctest */,
+				455AC2C31A76130B00BCC373 /* SwiftGraphics_OSX_Scratch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -658,6 +697,27 @@
 				4556218F1A6A2DD800EB181E /* Scratch.swift */,
 			);
 			path = HandleEditor;
+			sourceTree = "<group>";
+		};
+		455AC2C41A76130B00BCC373 /* SwiftGraphics_OSX_Scratch */ = {
+			isa = PBXGroup;
+			children = (
+				455AC2C71A76130B00BCC373 /* AppDelegate.swift */,
+				455AC2C91A76130B00BCC373 /* ViewController.swift */,
+				455AC2E81A76135600BCC373 /* ScratchView.swift */,
+				455AC2CB1A76130B00BCC373 /* Images.xcassets */,
+				455AC2CD1A76130B00BCC373 /* Main.storyboard */,
+				455AC2C51A76130B00BCC373 /* Supporting Files */,
+			);
+			path = SwiftGraphics_OSX_Scratch;
+			sourceTree = "<group>";
+		};
+		455AC2C51A76130B00BCC373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				455AC2C61A76130B00BCC373 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		458C59011A7409E200E993A6 /* Will Deprecate */ = {
@@ -936,6 +996,25 @@
 			productReference = 454FE66219C77031002E4DEF /* SwiftGraphicsPlayground.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		455AC2C21A76130B00BCC373 /* SwiftGraphics_OSX_Scratch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455AC2DC1A76130B00BCC373 /* Build configuration list for PBXNativeTarget "SwiftGraphics_OSX_Scratch" */;
+			buildPhases = (
+				455AC2BF1A76130B00BCC373 /* Sources */,
+				455AC2C01A76130B00BCC373 /* Frameworks */,
+				455AC2C11A76130B00BCC373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455AC2E31A76133500BCC373 /* PBXTargetDependency */,
+				455AC2E51A76133500BCC373 /* PBXTargetDependency */,
+			);
+			name = SwiftGraphics_OSX_Scratch;
+			productName = SwiftGraphics_OSX_Scratch;
+			productReference = 455AC2C31A76130B00BCC373 /* SwiftGraphics_OSX_Scratch.app */;
+			productType = "com.apple.product-type.application";
+		};
 		45CFDC9D1A61CE3500053F96 /* SwiftGraphics_OSX_UITest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45CFDCB71A61CE3500053F96 /* Build configuration list for PBXNativeTarget "SwiftGraphics_OSX_UITest" */;
@@ -994,6 +1073,9 @@
 					454FE66119C77031002E4DEF = {
 						CreatedOnToolsVersion = 6.1;
 					};
+					455AC2C21A76130B00BCC373 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					45B8AE8F19BCE56E00C61A3F = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -1021,9 +1103,10 @@
 				45B8AE8F19BCE56E00C61A3F /* All */,
 				454D550619AA5CE6000E3EB3 /* SwiftGraphics_OSX */,
 				45DA4AC319AA62A800133F32 /* SwiftGraphics_iOS */,
-				454D551119AA5CE6000E3EB3 /* SwiftGraphicsTests */,
 				454FE66119C77031002E4DEF /* SwiftGraphicsPlayground */,
 				45CFDC9D1A61CE3500053F96 /* SwiftGraphics_OSX_UITest */,
+				455AC2C21A76130B00BCC373 /* SwiftGraphics_OSX_Scratch */,
+				454D551119AA5CE6000E3EB3 /* SwiftGraphicsTests */,
 				4501557E1A62F9F600D7FB7B /* SwiftGraphicsPlayground_OSX_UnitTests */,
 			);
 		};
@@ -1055,6 +1138,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455AC2C11A76130B00BCC373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455AC2CC1A76130B00BCC373 /* Images.xcassets in Resources */,
+				455AC2CF1A76130B00BCC373 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,6 +1268,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		455AC2BF1A76130B00BCC373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455AC2CA1A76130B00BCC373 /* ViewController.swift in Sources */,
+				455AC2C81A76130B00BCC373 /* AppDelegate.swift in Sources */,
+				455AC2E91A76135600BCC373 /* ScratchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45CFDC9A1A61CE3500053F96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1288,6 +1390,16 @@
 			target = 454D550619AA5CE6000E3EB3 /* SwiftGraphics_OSX */;
 			targetProxy = 454FE68119C77993002E4DEF /* PBXContainerItemProxy */;
 		};
+		455AC2E31A76133500BCC373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 454D550619AA5CE6000E3EB3 /* SwiftGraphics_OSX */;
+			targetProxy = 455AC2E21A76133500BCC373 /* PBXContainerItemProxy */;
+		};
+		455AC2E51A76133500BCC373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 454FE66119C77031002E4DEF /* SwiftGraphicsPlayground */;
+			targetProxy = 455AC2E41A76133500BCC373 /* PBXContainerItemProxy */;
+		};
 		4582DB7919AA7A6700B7F5B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 454D550619AA5CE6000E3EB3 /* SwiftGraphics_OSX */;
@@ -1311,6 +1423,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		455AC2CD1A76130B00BCC373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455AC2CE1A76130B00BCC373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		45CFDCA81A61CE3500053F96 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1551,6 +1671,35 @@
 			};
 			name = Release;
 		};
+		455AC2DD1A76130B00BCC373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftGraphics_OSX_Scratch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		455AC2DE1A76130B00BCC373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = SwiftGraphics_OSX_Scratch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		45B8AE9119BCE56E00C61A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1688,6 +1837,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		455AC2DC1A76130B00BCC373 /* Build configuration list for PBXNativeTarget "SwiftGraphics_OSX_Scratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455AC2DD1A76130B00BCC373 /* Debug */,
+				455AC2DE1A76130B00BCC373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		45B8AE9019BCE56E00C61A3F /* Build configuration list for PBXAggregateTarget "All" */ = {
 			isa = XCConfigurationList;

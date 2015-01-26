@@ -16,7 +16,7 @@ public protocol Geometry {
 
 public protocol HitTestable {
     func contains(point:CGPoint) -> Bool
-    func onEdge(point:CGPoint, lineThickness:CFloat) -> Bool
+    func onEdge(point:CGPoint, lineThickness:CGFloat) -> Bool
 }
 
 public protocol Pathable {
